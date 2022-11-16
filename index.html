@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FontAwesome link: -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Google Fonts link: -->
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
     <!-- CSS Stylesheet Link -->
@@ -13,12 +15,15 @@
     <!-- Script for JS is located at the bottom of the document to speed up load time -->
     <title>Document</title>
 </head>
+
 <body>
+
     <h1 class="heading">
         <img class="logo" src="assets/images/logo.png" alt="logo"> Love Maths
     </h1>
-    
+
     <div class="game-area">
+
         <div class="controls-area">
             <button data-type="addition" class="btn btn--big btn--green">
                 <i class="fas fa-plus"></i>
@@ -33,6 +38,7 @@
                 <i class="fas fa-divide"></i>
             </button>
         </div>
+
         <div class="question-area">
             <span id="operand1">0</span>
             <span id="operator">x</span>
@@ -41,7 +47,9 @@
             <p class="answer-message">Enter Answer:</p>
             <input id="answer-box" type="number">
         </div>
+
         <button data-type="submit" class="btb btb--gray">Submit Answer</button>
+
     </div>
 
     <div class="score-area">
@@ -49,7 +57,8 @@
         <p class="scores">Incorrect Answers <span id="score">0</span></p>
     </div>
 
-    <!-- Script for JS -->
+    <!-- Script for JavaScript -->
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
